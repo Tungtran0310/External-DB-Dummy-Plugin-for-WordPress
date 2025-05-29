@@ -46,4 +46,4 @@ define('SDBD_DB_PASS', 'your-db-password');
 
 ## License
 
-Privat! Only for showcase and education!
+Copyright by Volkan Kücükbudak- Privat-License! Only for showcase and education!
