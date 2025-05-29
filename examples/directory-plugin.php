@@ -3,7 +3,7 @@
 Plugin Name: Simple DB Router Directory
 Description: Minimal plugin to route directory data to a dedicated database.
 Version: 0.2
-Author: Your Name
+Author: Volkan Kücükbudak
 */
 
 // Prevent direct access
