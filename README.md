@@ -118,10 +118,11 @@ In the [/examples/](https://github.com/VolkanSah/External-DB-Dummy-Plugin-for-Wo
 
 
 ### 🤖 Authors
+
+---
 Made by **VolkanSah \:D** – Giving WordPress plugins their own brains.
 "Between madness and genius lies a README.md."
 ---
-
 Created by thought. Readme written by OpenAI's GPT. Heartbeat and code by a human soul.
 
 
