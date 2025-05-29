@@ -1,8 +1,0 @@
-CREATE TABLE wp_plugin_db_registry (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  plugin_slug VARCHAR(255) UNIQUE,
-  db_host VARCHAR(255),
-  db_name VARCHAR(255),
-  status ENUM('active', 'inactive'),
-  last_sync TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
