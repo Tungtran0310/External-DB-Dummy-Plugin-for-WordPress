@@ -1,34 +1,35 @@
-# 🧪 External DB Dummy Plugin for WordPress
+# External DB Dummy Plugin for WordPress
 
-This plugin demonstrates how to connect a WordPress plugin to one or more **external databases**, using basic hardcoded connection pooling logic (no GUI, no config screen).
+This repo demonstrates how to connect a WordPress plugin to one or more **external databases**, using basic hardcoded connection pooling logic (no GUI, no config screen).
 
 ## 🧠 Idea
 
-- WordPress core continues to use its **main database (DB1)**
-- This plugin connects to an **external database (DB2)** with custom logic
-- Heavy plugin data (e.g. products, prices, logs, etc.) can be stored outside of the main WP DB
-- Helps reduce **bloat and performance load** on the main WordPress database
+- WordPress core continues to use its **main database (DB1)**  
+- This plugin connects to an **external database (DB2)** with custom logic  
+- Heavy plugin data (e.g. products, prices, logs, etc.) can be stored outside of the main WP database  
+- Helps reduce **bloat and performance load** on the main WordPress database  
 
 ## 💡 Example Use Case
 
-Imagine you're building a big plugin like a shop, a CRM, or a directory.  
+Imagine you're building a large plugin like a shop, a CRM, or a directory.  
 Instead of dumping thousands of rows into `wp_postmeta`, your plugin uses a separate database.
 
 This project shows **how to do that with a minimal setup**.
 
-## 📦 Structure
+## 📦 Idea Folder
+
+Under the folder `the-idea/` you will find this hardcoded example:
 
 ```
 
-wp-external-db-dummy-plugin/
-├── wp-external-db-dummy-plugin.php   ← Main plugin file
-├── db-config.php                     ← Hardcoded DB hosts + weights
-├── external-db.php                   ← Connection pooling logic
-└── README.md                         ← This file
+External-DB-Dummy-Plugin-for-WordPress/
+└── the-idea/
+    ├── plugin-core.php      ← Simple example plugin file
+    ├── db-config.php        ← Hardcoded DB hosts + weights
+    └── external-db.php      ← Connection pooling logic
 
 ````
 
----
 
 ## 🔧 `db-config.php`
 
@@ -41,7 +42,6 @@ return [
 ];
 ````
 
----
 
 ## 🔌 `external-db.php`
 
@@ -72,9 +72,8 @@ function get_external_db_connection() {
 }
 ```
 
----
 
-## 🔌 `wp-external-db-dummy-plugin.php`
+## 🔌 `plugin-core.php`
 
 ```php
 <?php
@@ -101,11 +100,17 @@ add_action('admin_notices', function () {
 
 ---
 
+## 📁 Examples Folder
+
+In the [/examples/](https://github.com/VolkanSah/External-DB-Dummy-Plugin-for-WordPress/tree/main/examples) folder you can find a simple directory plugin that uses a second database.
+
+---
+
 ## 📌 Notes
 
-* This plugin does not use `$wpdb`
+* This plugin does **not** use `$wpdb`
 * No options or settings in WordPress
-* Pure PHP + mysqli
+* Pure PHP + `mysqli`
 * Connection pooling is simulated with a weighted array
 
 ---
@@ -113,9 +118,9 @@ add_action('admin_notices', function () {
 ## 🔐 Requirements
 
 * PHP 7.4+
-* `mysqli` enabled
+* `mysqli` extension enabled
 * WordPress 5.0+
-* External DBs accessible from the WP host
+* External databases accessible from the WordPress host
 
 ---
 
@@ -125,9 +130,16 @@ Made by **VolkanSah \:D** – Giving WordPress plugins their own brains.
 
 ---
 
-**Footnote**  
-*Created by thought. Written by OpenAIs GPT. Heartbeat and Code by a human soul.*  
+**Footnote**
+*Created by thought. Written by OpenAI's GPT. Heartbeat and code by a human soul.*
+
 ---
+
 "Between madness and genius lies a README.md."
 
+```
 
+---
+
+Wenn du willst, kann ich dir auch noch helfen, den Text noch knackiger oder ausführlicher zu machen. Sag einfach Bescheid!
+```
