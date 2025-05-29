@@ -9,14 +9,14 @@ This repo demonstrates how to connect a WordPress plugin to one or more **extern
 - Heavy plugin data (e.g. products, prices, logs, etc.) can be stored outside of the main WP database  
 - Helps reduce **bloat and performance load** on the main WordPress database  
 
-## 💡 Example Use Case
+### 💡 Example Use Case
 
 Imagine you're building a large plugin like a shop, a CRM, or a directory.  
 Instead of dumping thousands of rows into `wp_postmeta`, your plugin uses a separate database.
 
 This project shows **how to do that with a minimal setup**.
 
-## 📦 Idea Folder
+### 📦 Idea Folder
 
 Under the folder `the-idea/` you will find this hardcoded example:
 
@@ -31,7 +31,7 @@ External-DB-Dummy-Plugin-for-WordPress/
 ````
 
 
-## 🔧 `db-config.php`
+### 🔧 `db-config.php`
 
 ```php
 <?php
@@ -43,7 +43,7 @@ return [
 ````
 
 
-## 🔌 `external-db.php`
+### 🔌 `external-db.php`
 
 ```php
 <?php
@@ -73,7 +73,7 @@ function get_external_db_connection() {
 ```
 
 
-## 🔌 `plugin-core.php`
+### 🔌 `plugin-core.php`
 
 ```php
 <?php
@@ -98,11 +98,11 @@ add_action('admin_notices', function () {
 });
 ```
 
-## 📁 Examples 
+### 📁 Examples 
 In the [/examples/](https://github.com/VolkanSah/External-DB-Dummy-Plugin-for-WordPress/tree/main/examples) folder you can find a simple directory plugin that uses a second database.
 
 
-## 📌 Notes
+### 📌 Notes
 
 * This plugin does **not** use `$wpdb`
 * No options or settings in WordPress
@@ -110,7 +110,7 @@ In the [/examples/](https://github.com/VolkanSah/External-DB-Dummy-Plugin-for-Wo
 * Connection pooling is simulated with a weighted array
 
 
-## 🔐 Requirements
+### 🔐 Requirements
 
 * PHP 7.4+
 * `mysqli` extension enabled
@@ -118,13 +118,11 @@ In the [/examples/](https://github.com/VolkanSah/External-DB-Dummy-Plugin-for-Wo
 * External databases accessible from the WordPress host
 
 
-## 🤖 Author
-
+### 🤖 Authors
 Made by **VolkanSah \:D** – Giving WordPress plugins their own brains.
 
-
-**Footnote**
-*Created by thought. Written by OpenAI's GPT. Heartbeat and code by a human soul.*
-
+**Footnotes**
+*Created by thought. Readme written by OpenAI's GPT. Heartbeat and code by a human soul.*
+---
 "Between madness and genius lies a README.md."
 
