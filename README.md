@@ -1,5 +1,4 @@
 # External DB Dummy Plugin for WordPress
-
 This repo demonstrates how to connect a WordPress plugin to one or more **external databases**, using basic hardcoded connection pooling logic (no GUI, no config screen).
 
 ## 🧠 Idea
