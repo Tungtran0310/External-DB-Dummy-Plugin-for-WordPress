@@ -123,7 +123,7 @@ Made by **VolkanSah \:D** – Giving WordPress plugins their own brains.
 
 **Footnotes**
 
-*Created by thought. Readme written by OpenAI's GPT. Heartbeat and code by a human soul.*
+**Created by thought. Readme written by OpenAI's GPT. Heartbeat and code by a human soul.**
 ---
 "Between madness and genius lies a README.md."
 
