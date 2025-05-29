@@ -1,29 +1,20 @@
 <?php
-/*
-Plugin Name: Simple DB Router
-Description: Routes specific plugin queries to a dedicated secondary database for testing purposes.
-Version: 0.1
-Author: Your Name
-*/
+/**
+ * Plugin Name: External DB Dummy Plugin
+ * Description: A simple plugin that connects to an external DB with manual connection pooling (no GUI).
+ * Version: 0.1
+ * Author: Als Batman :D
+ */
 
-global $secondary_db;
+require_once __DIR__ . '/external-db.php';
 
-// Define secondary DB connection (hartcodiert)
-$secondary_db = new wpdb('db_user2', 'db_pass2', 'db_name2', 'db_host2');
-
-// Funktion, um Query-Routing zu entscheiden
-function sdb_route_query($query, $wpdb) {
-    global $secondary_db;
-
-    //  Leite alle Queries für die Tabelle 'plugin_special_table' um
-    if (strpos($query, 'plugin_special_table') !== false) {
-        // Query an secondary DB senden und Ergebnis zurückgeben
-        return $secondary_db->query($query);
+add_action('admin_notices', function () {
+    $conn = get_external_db_connection();
+    if (!$conn) {
+        echo "<div class='notice notice-error'><p>External DB connection failed.</p></div>";
+        return;
     }
 
-    // Sonst normale Verarbeitung (original $wpdb)
-    return false; // false signalisiert WP, normal weiterzumachen
-}
-
-// Hook in die query-Execution
-add_filter('query', 'sdb_route_query', 10, 2);
+    $result = $conn->query("SELECT * FROM products LIMIT 5");
+    echo "<div class='notice notice-success'><p>External DB connected. Found " . $result->num_rows . " products.</p></div>";
+});
