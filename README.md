@@ -98,13 +98,9 @@ add_action('admin_notices', function () {
 });
 ```
 
----
-
-## 📁 Examples Folder
-
+## 📁 Examples 
 In the [/examples/](https://github.com/VolkanSah/External-DB-Dummy-Plugin-for-WordPress/tree/main/examples) folder you can find a simple directory plugin that uses a second database.
 
----
 
 ## 📌 Notes
 
@@ -113,7 +109,6 @@ In the [/examples/](https://github.com/VolkanSah/External-DB-Dummy-Plugin-for-Wo
 * Pure PHP + `mysqli`
 * Connection pooling is simulated with a weighted array
 
----
 
 ## 🔐 Requirements
 
@@ -122,24 +117,14 @@ In the [/examples/](https://github.com/VolkanSah/External-DB-Dummy-Plugin-for-Wo
 * WordPress 5.0+
 * External databases accessible from the WordPress host
 
----
 
 ## 🤖 Author
 
 Made by **VolkanSah \:D** – Giving WordPress plugins their own brains.
 
----
 
 **Footnote**
 *Created by thought. Written by OpenAI's GPT. Heartbeat and code by a human soul.*
 
----
-
 "Between madness and genius lies a README.md."
 
-```
-
----
-
-Wenn du willst, kann ich dir auch noch helfen, den Text noch knackiger oder ausführlicher zu machen. Sag einfach Bescheid!
-```
