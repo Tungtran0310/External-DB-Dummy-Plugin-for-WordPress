@@ -123,7 +123,11 @@ add_action('admin_notices', function () {
 
 Made by **VolkanSah \:D** – Giving WordPress plugins their own brains.
 
-Feel free to fork, improve, or turn it into a real boilerplate for plugins that want to **scale outside the core**.
+---
 
-```
+**Footnote**  
+*Created by thought. Written by OpenAIs GPT. Heartbeat and Code by a human soul.*  
+---
+"Between madness and genius lies a README.md."
+
 
