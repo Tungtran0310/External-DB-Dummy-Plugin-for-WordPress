@@ -15,7 +15,7 @@ Instead of dumping thousands of rows into `wp_postmeta`, your plugin uses a sepa
 
 This project shows **how to do that with a minimal setup**.
 
-### 📦 Idea Folder
+### 📦 Idea Example
 
 Under the folder `the-idea/` you will find this hardcoded example:
 
