@@ -14,7 +14,7 @@ A minimal WordPress plugin that routes contact directory data to a dedicated ext
 
 Before activating the plugin, you **must define the external database connection parameters** in your `wp-config.php` file.
 
-Add the following lines to your `wp-config.php`, replacing the placeholders with your actual database credentials:
+Add the following lines to your `wp-config.php` for second database, do not replace with your actual database credentials!
 
 ```php
 define('SDBD_DB_HOST', 'your-db-host');
